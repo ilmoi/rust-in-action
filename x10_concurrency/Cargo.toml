@@ -1,0 +1,12 @@
+[package]
+name = "x10_concurrency"
+version = "0.1.0"
+authors = ["ilmoi <iljamoi@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossbeam = "0.8.1"
+rayon = "1.5.1"
+svg = "0.6.0"
